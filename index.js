@@ -18,7 +18,7 @@ server.get('/api/hello', (req, res) => {
 
 server.use('*', (req, res, next) => {
     res.send(`<h1>Hello</h1>`)
-    res.send(`<p>And welcome to my first deployable api through Heroku!`)
+    res.send(`<p>And welcome to my first deployable api through Heroku!</p>`)
 });
 
 server.use((err, req, res, next) => { // eslint-disable-line
